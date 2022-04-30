@@ -4,3 +4,8 @@
 
 ACG Course - https://learn.acloud.guru/course/aws--certified-cloud-practitioner/overview
 
+## Intro
+
+Instructor: Keesha Williams
+Course orientation: Fundamentals
+
