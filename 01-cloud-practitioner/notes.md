@@ -9,3 +9,28 @@ ACG Course - https://learn.acloud.guru/course/aws--certified-cloud-practitioner/
 Instructor: Keesha Williams
 Course orientation: Fundamentals
 
+## Exam Blueprint
+
+* Validates your abilty to explain the value of AWS cloud
+* Explain the shared responsibility model
+* Security best practices
+* Cloud costs and billing practices
+* Core services compute network storage database
+* Identify core use cases
+
+Recommends 6 months hands on
+
+Exam Content
+
+* Multiple choice
+* Multiple response - two or more correct answers out of 5 options
+* Most questions scenario based
+
+Domains
+
+* Cloud Concepts - 26%
+* Technology - 33%
+* Security and Compliance - 25%
+* Billing and Pricing - 16%
+
+Minimum Passing Score - 700
