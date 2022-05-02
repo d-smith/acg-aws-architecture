@@ -34,3 +34,10 @@ Domains
 * Billing and Pricing - 16%
 
 Minimum Passing Score - 700
+
+## Navigating the Course
+
+Interactive experience, non-linear learning
+
+* View each lesson
+* Links in the resources and description sections of the sections
