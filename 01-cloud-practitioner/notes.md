@@ -41,3 +41,20 @@ Interactive experience, non-linear learning
 
 * View each lesson
 * Links in the resources and description sections of the sections
+
+## Chapter 2 Foundations of Cloud Coumputing
+
+Cloud computing - delivery of computing services over the internet
+
+* compute
+* storage
+* networking
+* analytics
+* development
+* security
+* databases
+
+Read the [whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.pdf)
+
+virtualization - divide the hardware resources on a single pysical server into smaller units
+
