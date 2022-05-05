@@ -58,3 +58,11 @@ Read the [whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overvie
 
 virtualization - divide the hardware resources on a single pysical server into smaller units
 
+Advantages of Cloud Computing
+
+* Go global in minutes
+* Stop spending money running and maintaining data centers
+* Benefit from massive economies of scale
+* Increase speed and agilty
+* Stop guessing capacity
+* Trade capital expense for variable expense
