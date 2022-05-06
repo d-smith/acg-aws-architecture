@@ -78,3 +78,5 @@ CapEx - upfront purchases toward fixed assets
 OpEx - funds used to run day to day operations
 
 Capacity is matched to demand.
+
+Terminology cheet sheet - [here](https://acloudguru.com/blog/engineering/your-aws-terminology-cheat-sheet)
