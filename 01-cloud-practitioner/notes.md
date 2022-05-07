@@ -80,3 +80,15 @@ OpEx - funds used to run day to day operations
 Capacity is matched to demand.
 
 Terminology cheet sheet - [here](https://acloudguru.com/blog/engineering/your-aws-terminology-cheat-sheet)
+
+### Cloud Computing Models
+
+* Infrastructure as a Service - fundamental building blocks that can be rented, for exanple a web hosting service
+* Complete application, available on demand, offered to users, for example a personal email service
+* Platform as a service - used by developers using web-based tools without worrying about underlying infrastructure, for example a storefront website, or aws cloud 9
+
+### Cloud Deployment Models
+
+* Private cloud - company internal data center and network, own your own security, no sharing resources
+* Public cloud - get all the benefits of cloud
+* Hybrid - combination of private and public, secure sensitive data in on prem data center
