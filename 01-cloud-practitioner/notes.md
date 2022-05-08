@@ -91,4 +91,30 @@ Terminology cheet sheet - [here](https://acloudguru.com/blog/engineering/your-aw
 
 * Private cloud - company internal data center and network, own your own security, no sharing resources
 * Public cloud - get all the benefits of cloud
-* Hybrid - combination of private and public, secure sensitive data in on prem data center
+* Hybrid - combination of private and public, secure sensitive data in on prem data center, supported by DirectConnect
+
+### Leveraging AWS Global Resources
+
+Regions
+
+* A region is a physical location. AWS logically groups regions into geographic locations
+* Fully independent and isolated
+* Resource and service specific
+
+Availability Zones
+
+* Availability Zones (AZs) consist of one or more physically separated data centers, each with redundant power, networking, and connectivity, housed in separate facilities.
+* Characteristics
+    * Physically separated
+    * Connected through low-latency links
+    * Fault tolerant
+    * Allows for high availability
+
+
+Edge Locations
+
+* Cache content for fast delivery to your users
+* Latency - Latency is the time that passes between a user request and the resulting response.
+* CDN and cloudfront, reduced latency, like a data center but doesn't run your main infrastructure
+
+
