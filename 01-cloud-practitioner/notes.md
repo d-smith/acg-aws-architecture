@@ -118,3 +118,21 @@ Edge Locations
 * CDN and cloudfront, reduced latency, like a data center but doesn't run your main infrastructure
 
 
+### Exploring Your Account
+
+* Management console and CLI
+* [Materials](https://acloudguru.visme.co/view/jwpjrjyg-s02-l05-exploring-your-amazon-web-services-aws-account)
+
+Root user
+
+* limited use, e.g. delete your account
+* always protect via MFA
+* root has unrestricted access
+
+Programmatic Access
+
+* CLI
+* Appliaction Code
+* SDKs
+
+
