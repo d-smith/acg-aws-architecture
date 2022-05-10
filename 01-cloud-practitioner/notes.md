@@ -4,12 +4,12 @@
 
 ACG Course - https://learn.acloud.guru/course/aws--certified-cloud-practitioner/overview
 
-## Intro
+## Introduction
 
 Instructor: Keesha Williams
 Course orientation: Fundamentals
 
-## Exam Blueprint
+### Exam Blueprint
 
 * Validates your abilty to explain the value of AWS cloud
 * Explain the shared responsibility model
@@ -35,14 +35,14 @@ Domains
 
 Minimum Passing Score - 700
 
-## Navigating the Course
+### Navigating the Course
 
 Interactive experience, non-linear learning
 
 * View each lesson
 * Links in the resources and description sections of the sections
 
-## Chapter 2 Foundations of Cloud Coumputing
+## Foundations of Cloud Coumputing
 
 Cloud computing - delivery of computing services over the internet
 
