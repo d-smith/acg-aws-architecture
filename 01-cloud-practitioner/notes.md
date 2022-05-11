@@ -135,4 +135,10 @@ Programmatic Access
 * Appliaction Code
 * SDKs
 
+## Technology
+
+Vid - 168 AWS services in 2 minutes
+
+Tech section is 30% of the exam
+
 
