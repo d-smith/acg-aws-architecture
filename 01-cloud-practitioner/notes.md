@@ -141,4 +141,36 @@ Vid - 168 AWS services in 2 minutes
 
 Tech section is 30% of the exam
 
+### Compute
 
+
+EC2
+
+* elastic compute power
+* virtual servers in the cloud
+
+region -> multiple AZs -> multiple data centers -> multiple servers
+
+access your instances via
+
+* AWS management console
+* Via SSH (most common way, via a keypair)
+* Via EC2 instance connect
+* AWS systems manager
+
+Pricing options
+
+* on-demand, billed to the second, can reserve on-demand capacity
+* spot - request use of unused capacity, can save up to 90%, pay the spot price in effect at each hour
+* reserved instances - commit to a specific instance type in a specific region for a 1 or 3 year term, save up to 75%, must sign a contract, capacity in an AZ, pay partion up front, all up front, per month
+    * can use a convertable reserved instance
+* dedicated hosts - pay for a physical server dedicated for you exclusive use
+    * use for server-bound licences
+    * tenancy model demands via regulatory or contractual obligations
+* savings plans - commit to compute usage measured by the hour for 1 to 3 years, lower bill across multiple servers, more flexibility, save up to 72% from on demand
+    * apply across many compute services - ec2, fargate, lambda
+
+features
+
+* load balancers
+* auto scaling
