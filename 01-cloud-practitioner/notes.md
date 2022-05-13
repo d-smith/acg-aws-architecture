@@ -174,3 +174,29 @@ features
 
 * load balancers
 * auto scaling
+
+#### Lambda
+
+Write and deploy code without worrying about servers
+
+* Scales automatically
+* Focus on core business logic instead of worrying about servers?
+* Building block for building serverless apps
+    * Serverless means AWS manages the servers for you
+* Use cases
+    * Real-time file processing
+    * Send email notifications triggered by SNS
+    * Backend business logic for Alexa
+
+Features
+
+* Supports many popular programming languages
+* Author code using your favorite IDE
+    * Only responsible for your application code
+* Lambda can execute your code in response to events
+* 15 minute timeout
+
+Pricing Model
+
+* Based on compute time and request count
+* Includes 1 million free requests post free tier usage ("always free option")
