@@ -200,3 +200,20 @@ Pricing Model
 
 * Based on compute time and request count
 * Includes 1 million free requests post free tier usage ("always free option")
+
+#### Addition Compute Services
+
+Fargate - serverless compute engine for containers
+
+* Works with Docker, ECS, EKS
+* Scales automatically
+* Serverless
+
+Lightsail
+
+* Quickly launch all the resources you need for small projects
+* Several preconfigured apps like work press sites
+* Simple screens for people with no cloud experience
+* includes VMs, SSD storage, data transfer, DNS management, static IP
+* Low predictable monthly fee
+
