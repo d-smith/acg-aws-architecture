@@ -217,3 +217,11 @@ Lightsail
 * includes VMs, SSD storage, data transfer, DNS management, static IP
 * Low predictable monthly fee
 
+Outposts
+
+* Run cloud services in your internal data center
+* Supports workloads that need to remain on-premises due to latency or data
+soverignty needs
+* AWS delivers and installs servers in your internal data center
+* Used for Hybrid services
+* APIs for services you can call on line
