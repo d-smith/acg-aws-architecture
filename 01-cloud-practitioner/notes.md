@@ -225,3 +225,11 @@ soverignty needs
 * AWS delivers and installs servers in your internal data center
 * Used for Hybrid services
 * APIs for services you can call on line
+
+AWS Batch
+
+* Allows you to process large workloads in smaller chunks
+* Run hundreds and thousands of smaller batch processing jobs
+* Dynamically provisions resources based on volume
+
+
