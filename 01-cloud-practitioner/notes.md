@@ -233,3 +233,20 @@ AWS Batch
 * Dynamically provisions resources based on volume
 
 
+### Storage Services
+
+#### S3
+
+S3 - object storage service for the cloud that is highly available
+
+* Objects and buckets
+* Unlimited storage
+* Public or private
+
+Security
+
+* Set security at the bucket or object level using ACLs, Bucket Policies, Access Point policies
+* Versioning can be enabled to prevent accidental deletion, preservice prior versions
+* Use s3 access logs to track access
+* S3 is a regional service with global bucket namespace
+
