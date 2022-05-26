@@ -250,3 +250,22 @@ Security
 * Use s3 access logs to track access
 * S3 is a regional service with global bucket namespace
 
+Data Accessibility
+
+* Durability - will my data be there tomorrow?
+    * 11 nines
+* Avaialbilty - can I access my data now?
+    * 99.99 
+
+S3 Storage Classes
+
+* Standard
+* S3 Intelligent Tiering - good for unknown or changing access patters (new apps), or unpredictable patterns (data lake)
+* S3 Standard Infrequent Access (IA) - fast access when you need it
+* S3 One Zone Infrequent Access - like IA but one AZ, can lose data 
+* S3 Glacier - long term data data storage and archive
+    * Data retrieval is longer - tiers are 1-5 minutes, 3-5 hours, 5-12 hours
+* S3 Glacier Deep Archive - like glacier but event longer access time (12 hours or 48 hours)
+* S3 Outposts - object storage on premises
+    * Single storage class, can store data across multiple devices and servers
+    * Good for data residency, or if lower latency is needed.
