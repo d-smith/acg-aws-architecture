@@ -269,3 +269,10 @@ S3 Storage Classes
 * S3 Outposts - object storage on premises
     * Single storage class, can store data across multiple devices and servers
     * Good for data residency, or if lower latency is needed.
+
+S3 Use Cases
+
+* Static websites with cloudfront for global distribution
+* Archive data using glacier
+* Store data in s3 for use with analytics services like redshift and athena
+* Mobile applications - s3 transfer accelleration for upload to buckets
