@@ -276,3 +276,24 @@ S3 Use Cases
 * Archive data using glacier
 * Store data in s3 for use with analytics services like redshift and athena
 * Mobile applications - s3 transfer accelleration for upload to buckets
+
+#### Additional Storage Services
+
+EC2
+
+* Elastic Block Store
+    * Storage device that can be attached to and removed from your instance
+    * Tied to one AZ, attached a one host in the AX
+    * Data persists when instance is not running
+* Elastic File System
+    * Serverless network filesystem that allows you to share files
+    * Can be mounted to multiple (Linux) instances
+    * Accessible across multiple AZs in the same region
+* Instance Store
+    * Local storage that is physically attached to the host computer and cannot be removed
+    * Temporary/ephemeral - data lost when instance stopped
+    * For temporary storage needs
+* Storage Gateway
+    * Hybrid storage service, connect on-premises and cloud data
+    * Move backups to cloud, low latency access to data, reduce storage
+    cost
