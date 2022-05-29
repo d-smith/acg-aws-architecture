@@ -297,3 +297,10 @@ EC2
     * Hybrid storage service, connect on-premises and cloud data
     * Move backups to cloud, low latency access to data, reduce storage
     cost
+
+AWS Backup
+
+* Helps you manage backups across multiple AWS services
+* Integrates with resource like EC2, EBS, ECS, and more
+* Includes backup plan with both frequency and retention
+
