@@ -285,14 +285,16 @@ EC2
     * Storage device that can be attached to and removed from your instance
     * Tied to one AZ, attached a one host in the AX
     * Data persists when instance is not running
+    * Recommended for quickly accessible data, running a database on an instance, long-term data storage
 * Elastic File System
     * Serverless network filesystem that allows you to share files
     * Can be mounted to multiple (Linux) instances
     * Accessible across multiple AZs in the same region
+    * Use cases - main directory for business critical apps, lift and shift of existing enterprise apps
 * Instance Store
     * Local storage that is physically attached to the host computer and cannot be removed
     * Temporary/ephemeral - data lost when instance stopped
-    * For temporary storage needs
+    * For temporary storage needs, data that is replicated across multiple instances
 * Storage Gateway
     * Hybrid storage service, connect on-premises and cloud data
     * Move backups to cloud, low latency access to data, reduce storage
@@ -303,4 +305,41 @@ AWS Backup
 * Helps you manage backups across multiple AWS services
 * Integrates with resource like EC2, EBS, ECS, and more
 * Includes backup plan with both frequency and retention
+
+### Content Delivery Services
+
+CDN - mechanism to deliver content quickly and efficiently based on geographoc location
+
+#### CloudFront
+
+* CDN that provides global distribution of content with low latency
+* Make available or restrict based on location
+* Speeds up delivery of static and dynamic web content
+* Uses edge locations to speed up delivery
+
+Delivery
+
+* If available at the edge, returned directly
+* Not presend on the edge, retrieve from origin and cache at edge
+
+Use Cases
+
+* S3 Static Websites
+* Prevent DDOS attacks
+* IP address blocking
+
+Global accelerator
+
+* Sends your users through the AWS global network when accessing your content, speeding up delivery
+* Improves latency and availability of single region applications
+* Send traffic through the AWS global network infrastructure
+* 60% performance boost
+* Automatically reroutes traffic to healthy available regional endpoints
+
+S3 Transfer Acceleration
+
+* Speed up s3 upload and download
+* Fast transfer of files over long distancts
+* Uses CloudFronts globally distributed edge locations 
+* Customers around the work can upload to a central bucket
 
