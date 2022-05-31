@@ -343,3 +343,21 @@ S3 Transfer Acceleration
 * Uses CloudFronts globally distributed edge locations 
 * Customers around the work can upload to a central bucket
 
+### Networking Services
+
+#### VPC and Subcomponents
+
+* Networking connects computers together and allows for the sharing of data and applications, around the globe, in a secure manner using virtual routers, firewalls, and network management services.
+
+VPC
+
+* VPC is a foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources.
+* Isolate and secure resources
+* Spans AZs in a region
+* Public and private subnets
+    * Private - not accessible from internet
+    * Public - NACLs, router and route tables, internet gateway
+
+VPC Peering
+
+* Connect two VPCs together
