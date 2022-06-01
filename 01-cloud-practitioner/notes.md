@@ -361,3 +361,48 @@ VPC
 VPC Peering
 
 * Connect two VPCs together
+
+
+#### Additional Networking Services
+
+DNS 
+
+* Every computer has an IP address
+* DNS translates friendly name to IP address
+
+Route 53
+
+* Highly available, scalable domain name service
+* Register domain names
+* Performes healthchecks on cloud resources
+* Makes Hybrid cloud solutions easier
+
+DirectConnect
+
+* Dedicated physical network connection from your on-premises data center to AWS
+* Private connection
+* Use cases
+    * Large data sets
+    * Business critical data
+    * Hybrid model
+
+AWS VPN
+
+* Site-to-Site VPN creates a secure connection between your internal networks and your AWS VPCs. 
+* Similar to Direct Connect, but data travels over the public internet 
+* Data is automatically encrypted
+* Connects your on-premises data center to AWS
+* Supports a hybrid environment
+
+Site to site VPN architecture
+
+* aws cloud, region, AZs, VPC, private/public subnets, router
+* new components
+    * virtual private gateway - AWS side
+    * customer gateway - customer side
+
+API gateway
+
+* Build and managed APIs
+* Integrates with services like lambda
+    * Client interacts with gateway, which interacts with lambda and other resources
