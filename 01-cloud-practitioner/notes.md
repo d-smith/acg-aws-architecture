@@ -406,3 +406,43 @@ API gateway
 * Build and managed APIs
 * Integrates with services like lambda
     * Client interacts with gateway, which interacts with lambda and other resources
+
+## Utilizing Databases
+
+* Need a way to collect, store, retrieve, sort, graph, and manipulate data
+
+Types
+
+* Relational
+    * RDS - aurora, postgres, mysql, maria db, oracle, SQL server
+    * HA and fault tolerance - multiple AZs
+    * Aurora
+        * 5x faster than normal MySQL and 3x faster than normal PostgreSQL
+        * Scales automatically while  providing durability and high availability 
+        * 
+* NoSQL
+    * DynamoDB
+        * NoSQL key-value database
+        * Fully managed and serverless
+        * Scales automatically to massive workloads with fast performance
+        * Non-relational
+* Graph
+    * Amazon Neptune
+        * Graph database service
+        * Supports highly connected datasets like social media network
+* In memory
+    * Elasticache
+    * Compatible with Redis or Memcached engines
+* Document
+    * Document DB
+        * MongoDB compatible
+        * Fully managed and serverless
+
+Scenarios
+
+* Migrate on premises oracle db to cloud - RDS
+* Migrate on premises postgres db to the cloud - RDS or Aurora
+* Alleviate database load for data that is accessed often - elasticache
+* Process large sets of user profiles and socials interaction - neptune
+* NoSQL db fase enough to handle millions of requests/second - dynamodb
+* Operate mongodb workloads at scale - amazon document db
