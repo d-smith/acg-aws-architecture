@@ -446,3 +446,41 @@ Scenarios
 * Process large sets of user profiles and socials interaction - neptune
 * NoSQL db fase enough to handle millions of requests/second - dynamodb
 * Operate mongodb workloads at scale - amazon document db
+
+## Migration and Transfer Services
+
+Database Migration Service
+
+* Migrate on-premises databases to AWS
+* Continuous data replication
+* Supports homogeneous and heterogeneous migrations
+
+Server Migration Service
+
+* SMS allows you to migrate on-premises servers to AWS.
+* Server saved as a new Amazon Machine Image (AMI)
+* Use AMI to launch servers as EC2 instances
+
+Snow Family
+
+* Snowcone
+    * 8 TB usable storage
+    * Offline shipping
+    * Online with DataSync
+* Snowball and Snowball Edge
+    * petabyte scale data transport solution
+    * transfer data in and out
+    * cheaper than internet
+    * edge supports ec2 and lambda
+* Snowmobile
+    * multi-petabyte or exebyte scale
+    * 45 foot shipping container
+    * Driven to a data center and loaded into s3
+    * High security transport
+
+DataSync
+
+* DataSync allows for online data transfer from on-premises to AWS storage services like S3 or EFS.
+* Migrates data from on-premises to AWS
+* Copy data between AWS storage services
+* Replicate data cross-Region or cross-account  
