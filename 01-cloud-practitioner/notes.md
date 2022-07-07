@@ -484,3 +484,62 @@ DataSync
 * Migrates data from on-premises to AWS
 * Copy data between AWS storage services
 * Replicate data cross-Region or cross-account  
+
+## Leveraging Analytics Services
+
+Data warehousing
+
+* A data warehouse is a data storage solution that aggregates massive amounts of historical data from disparate sources.
+* Data warehouses support querying, reporting, analytics, and business intelligence. They are not used for transaction processing.
+
+Amazon Redshift
+
+* Redshift is a scalable data warehouse solution
+* Improves speed and efficiency when querying
+* Handles exabyte-scale data
+
+Uses
+
+* When you need to consolidate multiple data sources for reporting
+* When you want to run a database that doesn't require real-time transaction processing (insert, update, and delete)
+
+Analytics is the act of querying or processing your data
+
+Athena
+
+* Athena is a query service for Amazon S3.
+* Analyze S3 data using SQL
+* Pay per query
+* Considered serverless
+
+Glue
+
+* Glue prepares your data for analytics.
+* Extract, transform, load (ETL) service
+* Prepare and load data
+* Helps to better understand your data
+
+Kinesis
+
+* Kinesis allows you to analyze data and video streams in real time.
+* Analyze real-time, streaming data
+* Supports video, audio, application logs, website clickstreams, and IoT
+
+Elastic MapReduce
+
+* EMR helps you process large amounts of data.
+* EMR Process big data
+* Analyze data using Hadoop
+* Works with big data frameworks
+
+Data Pipeline
+
+* Data Pipeline helps you move data between compute and storage services running either on AWS or on-premises.
+* Moves data at specific intervals
+* Moves data based on conditions
+* Sends notifications on success or failure
+
+QuickSight
+
+* QuickSight helps you visualize your data.
+
