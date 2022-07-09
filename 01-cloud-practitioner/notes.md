@@ -407,7 +407,7 @@ API gateway
 * Integrates with services like lambda
     * Client interacts with gateway, which interacts with lambda and other resources
 
-## Utilizing Databases
+### Utilizing Databases
 
 * Need a way to collect, store, retrieve, sort, graph, and manipulate data
 
@@ -447,7 +447,7 @@ Scenarios
 * NoSQL db fase enough to handle millions of requests/second - dynamodb
 * Operate mongodb workloads at scale - amazon document db
 
-## Migration and Transfer Services
+### Migration and Transfer Services
 
 Database Migration Service
 
@@ -485,7 +485,7 @@ DataSync
 * Copy data between AWS storage services
 * Replicate data cross-Region or cross-account  
 
-## Leveraging Analytics Services
+### Leveraging Analytics Services
 
 Data warehousing
 
@@ -543,7 +543,7 @@ QuickSight
 
 * QuickSight helps you visualize your data.
 
-## Machine Learning Services
+### Machine Learning Services
 
 Artificial intelligence (AI) teaches computers to do things that normally require human intelligence. 
 
@@ -591,4 +591,34 @@ Lex
 * Build highly engaging chatbots
 * Powers Amazon Alexa
 
+
+### Developer Tools
+
+Cloud 9 
+
+* Cloud9 allows you to write code within an integrated development environment (IDE) from within your web browser.  
+
+CodeCommit
+
+* source control system for private Git repositories
+
+CodeBuild
+
+* allows you to build and test your application source code
+
+CodeDeploy
+
+* manages the deployment of code to compute services in the cloud or on-premises
+
+CodePipeline
+
+* automates the software release process
+
+XRay
+
+* helps debug production applications
+
+CodeStart
+
+* helps developers collaboratively work on development projects
 
