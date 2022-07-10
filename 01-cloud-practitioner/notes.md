@@ -597,28 +597,42 @@ Lex
 Cloud 9 
 
 * Cloud9 allows you to write code within an integrated development environment (IDE) from within your web browser.  
+* write and debug code
+* can preconfigure the dev environment with the needed SDKs and libraries for various scenarios, for example writing lambda functions
 
 CodeCommit
 
 * source control system for private Git repositories
+* like gitbub
 
 CodeBuild
 
 * allows you to build and test your application source code
+* compile source and run tests
+* produces artifacts that are ready to deploy
 
 CodeDeploy
 
 * manages the deployment of code to compute services in the cloud or on-premises
+* deploy code to fargate, ec2, lambda, and on premises
+* helps maintain app uptime, e.g. rolling deployments
 
 CodePipeline
 
 * automates the software release process
+* integrate with code build to build and run tests, with code commit to fetch the source code to build, and code deploy to deploy changes
+* ci/cd pipeline
 
 XRay
 
 * helps debug production applications
+* map application components
+* show flow of end to end requests
 
 CodeStart
 
 * helps developers collaboratively work on development projects
+* devs can connect their dev environment to code star
+* integrates with code commit, code build, code deploy
+* issue tracking dashboard
 
