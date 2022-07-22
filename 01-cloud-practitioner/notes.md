@@ -636,3 +636,40 @@ CodeStart
 * integrates with code commit, code build, code deploy
 * issue tracking dashboard
 
+### Deployment and Infrastructure Management Services
+
+Infrastructure as code
+
+* IaC allows you to write a script to provision AWS resources. The benefit is that you provision resources in a reproducible manner that saves time.
+
+Cloud Formation
+
+* CloudFormation allows you to provision AWS resources using Infrastructure as Code (IaC).
+* Provides a repeatable process for provisioning resources
+* Create templates for the resources you want to provision
+
+Elastic Beanstalk
+
+* Elastic Beanstalk allows you to deploy your web applications and web services to AWS.
+* Orchestration service that provisions resources
+* Automatically handles the deployment
+* Monitors application health via a health dashboard
+* After you upload your Java code, Elastic Beanstalk deploys it and handles capacity provisioning, load balancing, and Auto Scaling. Elastic Beanstalk even monitors the health of your application. 
+
+Ops Works
+
+* OpsWorks allows you to use Chef or Puppet to automate the configuration of your servers and deploy code.
+* Manage on-premises servers or EC2 instances in AWS Cloud
+* Chef and Puppet both supported
+
+### Utilizing Messaging and Integration Services
+
+* Coupling defines the interdependencies or connections between components of a system. Loose coupling helps reduce the risk of cascading failures between components.
+
+Simple Queue Service
+
+* SQS is a message queuing service that allows you to build loosely coupled systems.
+* Allows component-to-component communication using messages 
+* Multiple components (or producers) can add messages to the queue
+* Messages are processed in an asynchronous manner
+
