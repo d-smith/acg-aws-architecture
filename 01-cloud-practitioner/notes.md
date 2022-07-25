@@ -673,3 +673,17 @@ Simple Queue Service
 * Multiple components (or producers) can add messages to the queue
 * Messages are processed in an asynchronous manner
 
+The are often times that users of your applications need to be notified when something happens
+
+Simple Notification Service - SNS
+
+* Send (plain) emails and text messages
+* Publish messages to a topic
+* Subscribe to a topic and recieve messages
+
+SES - Simple EMail Services
+
+* Send richly formatted emails from your application
+* Good for marketing campaigns and professional emails
+ * Send marketing emails and track open rates
+
