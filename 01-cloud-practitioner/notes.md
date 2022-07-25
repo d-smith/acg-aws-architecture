@@ -687,3 +687,55 @@ SES - Simple EMail Services
 * Good for marketing campaigns and professional emails
  * Send marketing emails and track open rates
 
+### Auditing, Monitoring, Logging
+
+These services give you insight into how well your systems are performing and help you proactively find and resolve errors.
+
+Answer questions like:
+
+* Who signed in and made changes via the AWS Management Console?
+* What is the current load on this EC2 instance? 
+* What is the root cause of this application error?
+* Which execution path resulted in this error? 
+
+
+CloudWatch
+
+* CloudWatch is a collection of services that help you monitor and observe your cloud resources
+* Collects metrics, logs, and events
+* Detect anomalies in your environment
+* Set alarms
+* Visualize logs
+
+CloudWatch is a collection of services
+
+* CloudWatch Alarms
+* CloudWatch Logs
+* CloudWatch Metrics
+* CloudWatch Events
+
+Typical uses
+
+* Real time monitoring on EC2 instances
+* Recieve a notification when root user activity is observed in your system
+* Billing alarms
+
+
+CloudTrail
+
+* CloudTrail tracks user activity and API calls within your account
+* Log and retain account activity 
+* Track activity through the console, SDKs, and CLI
+* Identify which user made changes
+* Detect unusual activity in your account
+
+You can troubleshoot events over the past 90 days using the CloudTrail event history log to find the specific time an event occurred on a per-Region basis. You can create a custom trail to extend past 90 days.
+
+Things you can track
+
+* Username
+* Event time and name 
+* IP address
+* Access key id
+* Region
+* Error code
