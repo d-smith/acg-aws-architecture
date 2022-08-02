@@ -739,3 +739,18 @@ Things you can track
 * Access key id
 * Region
 * Error code
+
+### Exploring Additional Services
+
+Workspaces
+
+* Host virtual desktops in the cloud 
+* Windows and Linux
+* Enable employees to work from home
+
+Amazon Connect
+
+* Build contact center or help desk in the cloud
+* Provide customer service functionaliyt
+* Improves productivity of desk agents
+
