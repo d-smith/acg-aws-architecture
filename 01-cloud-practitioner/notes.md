@@ -754,3 +754,57 @@ Amazon Connect
 * Provide customer service functionaliyt
 * Improves productivity of desk agents
 
+## Security and Compliance
+
+### Shared Responsibility Model
+
+Shared security responsibility
+
+* AWS - security of the cloud
+    * Hardware, software, networking, facilities, etc.
+    * Managed services
+* Customer - security in the cloud
+    * Application data, encryption options
+    * Security configuration
+    * Patching - guest OS
+    * Identity and access management
+    * Network traffic, firewall config
+    * Installed software
+
+EC2 Mode
+
+* CUstomer
+    * Installed apps
+    * PAtching guest OS
+    * Security controls
+* AWS
+    * EC2 service
+    * Patching the host
+    * Security of the physical server
+
+
+Lambda 
+
+* Customer
+    * Security of the code
+    * Storage of sensitive data
+    * IAM for permissions
+* AWS
+    * Lambda service
+    * Upgrading lambda languages
+    * Lambda endpoints
+    * Operating system
+    * Underlying infrastructure
+    * Software dependencies
+
+Shared
+
+* Patch management
+* Configuration management
+* Awareness and training
+
+Security breach?
+
+* Rotate all passwords and access keys
+* Contact aws trust and safety team
+
