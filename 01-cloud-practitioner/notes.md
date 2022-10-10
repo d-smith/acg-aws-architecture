@@ -808,3 +808,30 @@ Security breach?
 * Rotate all passwords and access keys
 * Contact aws trust and safety team
 
+### Well Architected Framework
+
+6 pillars
+
+* Operational excellence
+* Security
+* Reliability
+* Performance efficiency
+* Cost optimization
+* Sustainability
+
+### IAM
+
+What can only the root user do?
+
+Close your account
+Change email address 
+Modify your support plan
+
+
+What can individual users do?
+
+Launch EC2 instances
+Configure databases]
+Perform administrative tasks 
+Access application code
+
