@@ -835,3 +835,30 @@ Configure databases]
 Perform administrative tasks 
 Access application code
 
+### Application Security Services
+
+WAF - web application firewall
+
+* Blocks attack patterns
+* Protects against SQL injection
+* Protects against cross site scripting
+* Protect cloudfront, application load balancers / EC2 web servers
+
+DDOS
+
+* Crash a web app via overloading it with traffic
+* AWS Shield is a managed DDOS protection service - standard is free, advanced is free
+* Advanced
+    * Enhanced protections
+    * 24x7 access to AWS exports
+    * Available on cloud front, route 53, ELB, AWS global accelerator
+* Real time notifications, support during incidents (advanced)
+
+
+Macie
+
+* Discover sensitive data on s3 data via ML
+
+
+
+
