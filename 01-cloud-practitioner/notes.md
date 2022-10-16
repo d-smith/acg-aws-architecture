@@ -900,6 +900,29 @@ AWS Cognito
 * Built in tools to sign up, sign in
 * Federation with social media accounts
 
+### Data Encryption and Secrets Management Services
 
+* Data in flight, data at rest
+* Encryption as a data protection mechanism
+
+KMS
+
+* Key management service
+    * Generate, store, manage keys
+    * Aws manages the keys
+
+CloudHSM
+
+* cloud hardware security module used to generate encryption keys
+* meet security requirements that require dedicated hardware
+* customer manages the keys
+
+Secrets Manager
+
+* Manage and retrieve secrets, e.g. database credentials
+* Rotate, manage, and retrieve secrets
+* Encrypt secrets at rest
+
+## Pricing, Billing, Governance
 
 
