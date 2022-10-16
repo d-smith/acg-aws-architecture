@@ -858,6 +858,47 @@ DDOS
 Macie
 
 * Discover sensitive data on s3 data via ML
+* passport numbers, SSN, credit cards, etc.
+
+
+### Additional Security Services
+
+AWS Config
+
+* Set guard rails
+* Set and audit settings on services in your account
+* Track config changes over time, stores in s3
+* Notifications on config changes
+
+AWS Guard Duty
+
+* Intelligent threat detection system, malicious or unauthorized activity
+* ML based
+* Built in detection for EC2, S3, IAM
+* Reviews cloud trail, vpc flow logs, dns logs
+* Anamoly detection - API calls
+* Alerts or take action via automation
+
+AWS Inspector
+
+* WOrks with EC2 instances to uncover and report vulernabilities
+* Reports on found vulnerabilities
+* checks remote access, root access, etc
+* Build in rules
+* Agent installed on ec2 instances
+
+AWS Artifact
+
+* On demand access to AWS security and compliance reports
+* Central repo for third party auditors
+
+AWS Cognito
+
+* Secure access to web apps and mobile apps
+* AuthN and AuthZ 
+* Manage users
+* Built in tools to sign up, sign in
+* Federation with social media accounts
 
 
 
