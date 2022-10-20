@@ -925,4 +925,73 @@ Secrets Manager
 
 ## Pricing, Billing, Governance
 
+Cost drivers
+
+* Compute
+* Storage
+* Outbound data transfer
+
+Whitepaper: How AWS Pricing Works
+
+Free offers
+
+* 12 months free following AWS sign up, subject to usage
+* Always free
+* Trials - free starting from service activation
+
+EC2 pricing
+
+* on demands
+* savings plan - commit to usage
+* reserved usage
+* spot instances
+* dedicated hosts
+
+Lambda pricing
+
+* Based on number of requests, includes start/stop time interval, first 1 million free
+
+
+S3
+
+* Pay for storage
+* Price based on location, storage class
+* Data transfer out of s3 region
+* Requests and data retrieval
+
+
+RDS
+
+* Running clock hours
+* Type of database 0 engine, size, memory class
+* Purchase type - on demand, reserved
+* Number of instances
+* API calls
+* Deployment type - 1 or multiple AZs
+* Outbound data transfer
+
+TCO - financial estimate to understand direct and indirect costs
+
+* Calculator no longer available
+
+Application Discovery Service
+
+* Tools to help plan migrations to AWS
+* Used to estimate TCO
+* Works with other services to migrate servers
+
+Ways to minimize TCO using AWS
+
+* Minimize capital expenditures
+* Utilize reserved instances
+* Right size your resources
+
+Pricing calculator - use to estimate TCO
+
+AWS Price List API
+
+* call to get prices
+* get notifications of price changes
+
+
 
