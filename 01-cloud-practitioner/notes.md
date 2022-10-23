@@ -993,5 +993,36 @@ AWS Price List API
 * call to get prices
 * get notifications of price changes
 
+### Billing Services
+
+Budgets
+
+* Allow you to set custom budgets to alert you when when your costs or usage exceed your budgeted amount
+* Improve planning and cost control
+* Cost, usage, and reservation budget
+    * Cost - how much to spend on a service
+    * Usage - plan how much to use on a service
+    * Reservation budgets - Set RIs or savings plans utilization or coverage targets
+* Budget alerts - email, SNS, chat (chime, slack)
+
+Can monitor free tier usage
+
+Cost and Usage Report
+
+* Most comprehensive set of cost and usage data
+* Downloadable report
+* Aggregate usage on different time dimensions
+
+
+Cost Explorer
+
+* Visualize your cost over time
+* Can forcast
+
+Cost Allocation Tags
+
+* Label resources using key and value pair
+* Tags allow you to track costs via cost allocation report
+
 
 
