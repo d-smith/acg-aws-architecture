@@ -1025,4 +1025,63 @@ Cost Allocation Tags
 * Tags allow you to track costs via cost allocation report
 
 
+### Governance Services
+
+Maintain control of cost, compliance, security across all your AWS accounts
+
+Organizations
+
+* Centrally manage multiple accounts under one umbrella
+* Group multiple accounts
+* Single paymenet for all accounts
+* Automate account creation
+* Allocate resources and manage access policies across all groups
+
+Master payer account
+
+Organization service control policies - policies all must follow
+
+Organizational Units
+Member Accounts
+
+Organization benefits
+
+* Consolidate billing
+* Cost savings - e.g. volume discounts from combined usage
+    * Save money with reserved instance sharing
+* Account governance
+
+Control Tower
+
+* Sits on top of organizations, helps ensure accounts conform to company policies
+* Works directly with organizations
+* Enforces the best use of services across accounts
+* Provides a dashboard to help manage accounts
+
+Systems Manager
+
+* Visibility and controls over AWS resources
+* AUtomate operational tasks on your resources
+* Group resources and take action
+* Patch and run commands on multiple EC2 and RDS instances
+
+Trusted Advisor
+
+* Provides real time guidance to help you provision your resources according to AWS best practices
+* CHecks your account and makes recommendations
+* Check service limits 
+* Makes recommendations
+* Free checks, upgraded checks based on support subscription
+
+License Manager
+
+* Helps you manage software licenses
+* On prem and AWS licences
+* ORacle, Microsoft, SAP, more
+
+Certificate Manager
+
+* Provides public and private certificates for free
+* Integrates with ELB, API GW, and more
+
 
