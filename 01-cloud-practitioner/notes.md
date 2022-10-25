@@ -1085,3 +1085,36 @@ Certificate Manager
 * Integrates with ELB, API GW, and more
 
 
+### Using Management Services
+
+Management services
+
+* Helps you efficiently operate your AWS infrastructure
+* Augments your internal staff
+* Provides ongoing management of your infrastructure
+* Reduces operational risks and overhead
+
+Professional Services
+
+* Help enterprises move to a cloud based enterprise model
+* Help design and architect systems
+* Help with cloud migration
+
+AWS Partner Network
+
+* Global community of approved partners that offer software solutions
+and consulting services for AWS
+* Find approved vendors with deep AWS experience
+
+Marketplace
+
+* Digital catalog of prebuilt solutions you can purchase or license
+* Buy third party software
+* Sell solutions to AWS customers
+
+Personal Health Dashboard
+
+* Alerts you to events that might impact your AWS enviornment
+* Provides troubleshooting guidance
+* Feedback tailored to your specific environment
+
