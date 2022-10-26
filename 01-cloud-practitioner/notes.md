@@ -1118,3 +1118,37 @@ Personal Health Dashboard
 * Provides troubleshooting guidance
 * Feedback tailored to your specific environment
 
+### Support Plans
+
+* Basic - included for free for all accounts
+    * account and biling questions, quota increases
+    * discussion forums
+* Developer - starts at $29 a month - recommended for dev and test
+    * basic plus tech support cases
+    * one primary contact
+    * unlimited cases
+    * email access to associate during business hours
+    * < 24 hours general guidance, < 12 hours if system impaired
+
+* Business - starts at $100 a month - recomended for production workloads
+    * all cases can be opened
+    * unlimited contacts and cases
+    * full set trusted advisor checks
+    * 24/7 access to suport engineers 24x7
+    * resp times -  < 24 hour general guidance, < 12 hours system impaired, < 4 hours prod system impaired, < 1 hour prod system down
+* Enterprise - starts at 15,000 a month recommended for business or mission-critical workloads
+    * all cases can be opened
+    * unlimited contacts and cases
+    * full set trusted advisor checks
+    * technical account manager - dedicated contact
+    * concierge support team
+    * infrastructure event management
+    * Cloud support engineer access 24/7
+    * resp times -  < 24 hour general guidance, < 12 hours system impaired, < 4 hours prod system impaired, < 1 hour prod system down, < 15 minutes business critical system down
+
+Support case types
+
+* Account and billing
+* Service limit increase
+* Technical support - paid plans only
+
